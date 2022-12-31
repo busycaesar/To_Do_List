@@ -1,0 +1,19 @@
+<div class="my-3">
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group row">
+          <label for="todo" [(ngModel)]="title" class="col-sm-2 col-form-label">To Do Title</label>
+          <div class="col-sm-10">
+            <input type="text" [(ngModel)]="title" name="title" class="form-control" id="title" aria-describedby="emailHelp" placeholder="For Eg. Shopping">
+            </div>
+        </div>
+        <br>
+        <div class="form-group row">
+          <label for="desc" [(ngModel)]="description" class="col-sm-2 col-form-label">Description</label>
+          <div class="col-sm-10">
+            <input type="text" [(ngModel)]="description" name="description" class="form-control" id="description" placeholder="For Eg. Buy Shits and Pants.">
+          </div>
+        </div>
+        <br>
+            <button type="submit" class="btn btn-primary"> Add Todo</button>
+      </form>
+</div>

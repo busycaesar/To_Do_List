@@ -1,0 +1,11 @@
+<h1>To Dos</h1>
+<app-add-todo (todoAdd)="addTodo($event)"></app-add-todo>
+<h4>Your Todos!!</h4>
+<div *ngIf="!this.todos.length; else elseBlock">You have completed all your todos.</div>
+<ng-template #elseBlock>
+    <div *ngFor="let todo of todos">
+        <!--Passing the variable todo to the component app-todo-item.-->
+        <!--The component app-todo-item is getting an object.-->
+        <app-todo-item [todo]="todo" (todoCheckBox)="checkBoxTodo($event)" (todoDelete)="deleteTodo($event)"></app-todo-item>
+    </div>
+</ng-template>
