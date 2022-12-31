@@ -1,4 +1,4 @@
-# ToDoList
+# To Do List
 
 This is a To Do List Web Application. The main focus while making this application was to learn Angular.js. Therefore, there might be some lack of design or planning. This application adds the todo task along with its description which will get saved in the local machine due to which the data can be retrived even if the page gets refreshed. Along with addding the task there is alss the function of striking the task whenever completed as well as deleting the task when not needed.
 
