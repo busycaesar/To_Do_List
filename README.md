@@ -1,6 +1,8 @@
 # To Do List
 
-This is a To Do List Web Application. This application can add a todo task/s along with its description, strike the task whenever complete and also delete it when not required. The main focus while making this application was to learn AngularJS; therefore, there is lack of designing or planning.
+## This is a To Do List Web Application. This application can add a todo task/s along with its description, strike the task whenever complete and also delete it when not required.
+
+## Developed this to learn Angular.js.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
